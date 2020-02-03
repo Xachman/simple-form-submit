@@ -1,0 +1,26 @@
+{
+    "name": "xachman/simple-form",
+    "description": "Simple way to execute form responses",
+    "type": "library",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/xachman/simple-php-form"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "gnat/simple-php-form": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xachman",
+            "email": "zironside@hotmail.com"
+        }
+    ]
+}
